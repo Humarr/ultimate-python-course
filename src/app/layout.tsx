@@ -39,19 +39,19 @@ export default function RootLayout({
     <html lang="en" className={`${poppins.variable} ${inter.variable}`}>
       <body className="bg-primary text-white font-body">
         {/* Sticky CTA bar */}
-        <div className="fixed bottom-0 left-0 right-0 bg-secondary/90 backdrop-blur z-50">
-          <div className="container mx-auto flex justify-between items-center p-4">
+        {/* <div className="fixed bottom-0 left-0 right-0 bg-primary/90 backdrop-blur z-50 border-t border-accent">
+          <div className="container mx-auto flex justify-between items-center p-2">
             <span className="font-heading font-bold text-lg">
               ⏳ <CountdownTimer /> LEFT!
             </span>
             <a
               href="#cta"
-              className="bg-white text-primary px-8 py-3 rounded-full font-heading font-bold hover:scale-105 transition-transform animate-pulse"
+              className="bg-white text-primary px-8 py-2 rounded-full font-heading font-bold hover:scale-105 transition-transform animate-pulse"
             >
               YES! I Want Python Power Now
             </a>
           </div>
-        </div>
+        </div> */}
 
         {children}
       </body>

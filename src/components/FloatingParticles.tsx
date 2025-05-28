@@ -24,7 +24,7 @@ export function FloatingParticles({ numberOfParticles = 20 }: { numberOfParticle
     }, [numberOfParticles])
 
     return (
-        <div className="absolute inset-0 z-0 opacity-70">
+        <div className="absolute inset-0 z-0 opacity-50">
             {particles.map((p, i) => (
                 <motion.div
                     key={i}
