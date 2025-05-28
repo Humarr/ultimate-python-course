@@ -2,7 +2,7 @@
 import type { Metadata } from "next";
 import { Poppins, Inter } from "next/font/google";
 import "./globals.css";
-import CountdownTimer from "@/components/CountdownTimer";
+// import CountdownTimer from "@/components/CountdownTimer";
 
 
 // Self-host fonts for performance
