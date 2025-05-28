@@ -40,7 +40,7 @@ export function Testimonials() {
 
 
     return (
-        <section className="py-24 bg-gradient-to-b from-primary to-[#0a1120] relative overflow-hidden">
+        <section id="proof" className="py-24 bg-gradient-to-b from-primary to-[#0a1120] relative overflow-hidden">
             {/* Floating AI particles */}
             <FloatingParticles />
             {/* <div className="absolute inset-0 z-0 opacity-10">
